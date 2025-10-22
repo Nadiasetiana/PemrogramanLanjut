@@ -1,0 +1,25 @@
+Deskripsi : Program ini mensimulasikan login untuk dua pengguna
+1. Admin
+2. Mahasiswa
+
+precondution :
+pengguna memasukkan pilihan :
+1. Admin
+2. Mahasiswa
+Data Login yang Valid :
+1. Admin :   Nama : Admin
+            Pw : Admin123
+2. Mahasiswa :  namamahasiswa : Nadia403
+                password : Nadi4
+
+command :
+1. Program menampilkan menu pilihan login (Admin/Mahasiswa).
+2. Pengguna memilih salah satu opsi (1/2).
+3. Program meminta input nama dan password.
+4. Sistem mengecek apakah input sesuai data yang tersimpan.
+5. Jika benar → tampil pesan “Login Sukses”.
+   Jika salah → tampil pesan “Login Tidak Valid”.
+6. Untuk Mahasiswa, program juga menampilkan nama pengguna setelah login.
+
+postcondution :
+Output Valid
