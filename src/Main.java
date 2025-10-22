@@ -5,7 +5,7 @@ public class Main {
         int Pilih;
         String Nama = "Admin";
         String pw = "Admin123";
-        String username = "Nadia403";
+        String namamahasiswa = "Nadia403";
         String password = "Nadi4";
         Scanner sc = new Scanner(System.in);
 
@@ -30,10 +30,10 @@ public class Main {
         }else if (Pilih == 2) {
             System.out.println("==Halo Mahasiswa==");
             System.out.printf("Nama : ");
-            username = sc.next();
+            namamahasiswa = sc.next();
             System.out.printf("Password : ");
             password = sc.next();
-            if (Nama.equals("Nadia403") && pw.equals("Nadi4")) {
+            if (namamahasiswa.equals("Nadia403") && password.equals("Nadi4")) {
                 System.out.println("Login Sukses");
             } else {
                 System.out.println("Login Tidak Valid");
@@ -44,7 +44,3 @@ public class Main {
         }
     }
 }
-
-
-    }
-            }
